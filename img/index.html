@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ILearn- Transforming Online Education</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background: url("bg.jpg");
+    }
+
+    .left {
+      display: inline-block;
+      position: absolute;
+      top: 18px;
+      left: 20px;
+    }
+
+    .left img {
+      width: 149px;
+      height: 91px;
+    }
+
+    .mid {
+      display: block;
+      width: 35%;
+      margin: 5px auto;
+      padding: 10px;
+  
+    }
+
+    .right {
+      position: absolute;
+      right: 34px;
+      top: 18px;
+      display: inline-block;
+    }
+
+    .navbar {
+      display: inline-block;
+      background-color: black;
+      padding: 9px;
+      margin: 8px auto;
+      border-radius: 10px;
+      width: 450px;
+    }
+
+    .navbar li {
+      display: inline-block;
+      font-size: 16px;
+    }
+
+    .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 60px 24px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+      text-decoration: underline;
+      color: grey;
+    }
+
+    .btn {
+      margin: 0px 9px;
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      padding: 8px 14px;
+      border: 2px solid grey;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      color: grey;
+    }
+
+    .container {
+      border: 2px solid black;
+      margin: 85px 55px;
+      padding: 21px;
+      width: 33%;
+      border-radius: 10px;
+      background-color: black;
+      text-align: center;
+    }
+    .form-group input {
+      text-align: center;
+      display: block;
+      width: 300px;
+      padding: 8px;
+      border: 2px solid black;
+      margin: 3px auto;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background-color: rgb(31, 30, 30);
+    }
+    .container button {
+      display: block;
+      width: 300px;
+      margin: 12px auto;
+      top: 20px;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!--left div for logo-->
+      <div class="left"><img src="laptop.png" /></div>
+
+      <!--Mid box for navbar-->
+      <div class="mid">
+        <div class="navbar">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Tech News</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </div>
+      </div>
+
+      <!--Right box for buttons-->
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Join the Tech hub now</h1>
+      <form action="noaction php">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Email" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Phone Number" />
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
